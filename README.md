@@ -4,7 +4,7 @@ This is an example of automation using cucumber-js, selenium-webdriver and node-
 
 The project has 2 tests that run on the entersekt/about page. The first test checks if Schalk Nolte is still the CEO of the company and the second test checks if the company still has 4 non executive board members.
 
-All the JavaScript is linted using jshint before the tests are run (using options specified in the Gruntfile). If any scenarios fail, a screenshot will be taken as a PNG and put in ./screenshots/. After the tests are finished Cucumber shuts down the Webdriver instance.
+If any scenarios fail, a screenshot will be taken as a PNG and put in ./screenshots/. After the tests are finished Cucumber shuts down the Webdriver instance.
 
 ## Running the tests on the desktop
 
@@ -15,13 +15,13 @@ To get going, you'll need Chrome (or Chromium) installed, and you'll also need t
     
     
 
-Verify it is working by opening a terminal and typing 'chromedriver'. You should see:
+Verify it is working by typing 'chromedriver' in the terminal. You should see:
 
     [me@computer ~]$ chromedriver 
     Starting ChromeDriver (v2.10) on port 9515
     Only local connections are allowed.
 
-If all seems OK, Ctrl+C to get rid of that, and carry on:
+then:
 
     git clone https://github.com/xtinzi/cucumber_entersekt_example.git
     cd cucumber_entersekt_example
