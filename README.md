@@ -11,6 +11,9 @@ All the JavaScript is linted using jshint before the tests are run (using option
 To get going, you'll need Chrome (or Chromium) installed, and you'll also need the Chromedriver executable available on your path. You can get Chromedriver from [here](http://chromedriver.storage.googleapis.com/index.html) and then, in Linux, you can add the directory to your path like this:
 
     export PATH=$PATH:~/path/to/directory/containing/chromedriver
+    OR create a symlink if this gives you problems: ln -s ~/path/to/directory/containing/chromedriver chromedriver
+    
+    
 
 Verify it is working by opening a terminal and typing 'chromedriver'. You should see:
 
