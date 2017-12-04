@@ -15,13 +15,13 @@ To get going, you'll need Chrome (or Chromium) installed, and you'll also need t
     
     
 
-Verify it is working by opening a terminal and typing 'chromedriver'. You should see:
+Verify it is working by typing 'chromedriver' in the terminal. You should see:
 
     [me@computer ~]$ chromedriver 
     Starting ChromeDriver (v2.10) on port 9515
     Only local connections are allowed.
 
-If all seems OK, Ctrl+C to get rid of that, and carry on:
+then:
 
     git clone https://github.com/xtinzi/cucumber_entersekt_example.git
     cd cucumber_entersekt_example
