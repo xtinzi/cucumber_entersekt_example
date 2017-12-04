@@ -23,7 +23,7 @@ Verify it is working by opening a terminal and typing 'chromedriver'. You should
 
 If all seems OK, Ctrl+C to get rid of that, and carry on:
 
-    git clone 
-    cd cucumber-js-selenium-webdriver-example
+    git clone https://github.com/xtinzi/cucumber_entersekt_example.git
+    cd cucumber_entersekt_example
     npm install
     npm test
