@@ -16,8 +16,9 @@ defineSupportCode(function({When, Then}) {
   });
 
   Then(/^The result should be equal to 4$/, function (next) {
-    this.driver.findElements(By.xpath("//*[contains(text(),'Board Members')]"))
-      .then(function(elements) {
+    //this.driver.findElement(By.id("non-executive-team")).findElement(By.xpath("//*[contains(text(),'member')]")).getText()
+      this.driver.findElements(By.css("section#non-executive-team div.team_column"))
+          .then(function(elements) {
         expect(elements.length).to.equal(4);
         next();
       });
